@@ -1,0 +1,2 @@
+rootProject.name = "Computer Science Basics"
+include ':app'

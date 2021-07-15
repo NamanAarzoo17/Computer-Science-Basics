@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BasicCS"
+    android:background="@drawable/cst_splash_bg">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="630dp"
+        app:layout_constraintBottom_toTopOf="@+id/banner1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/divider_middle"
+            android:orientation="vertical"
+
+            android:paddingTop="10dp"
+
+            android:showDividers="middle"
+            android:paddingBottom="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <!--android:paddingRight="5dp"-->
+            <!--android:paddingLeft="5dp"-->
+
+
+
+            <TextView
+                android:background="@drawable/cst_left_green_card"
+                android:layout_width="@dimen/dem_320dp"
+                android:layout_height="wrap_content"
+                android:onClick="Introduction"
+                android:padding="10dp"
+                android:text="@string/chapter_1_introduction"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="normal"/>
+
+
+            <TextView
+                android:layout_width="@dimen/dem_320dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cst_left_yellow_card"
+                android:layout_gravity="right"
+                android:onClick="Fundamental_Concept"
+                android:padding="10dp"
+                android:text="@string/chapter_2_fundamental_concept"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+
+
+
+            <TextView
+                android:layout_width="@dimen/dem_320dp"
+                android:layout_height="wrap_content"
+                android:onClick="Role_of_Computer"
+                android:padding="10dp"
+                android:text="@string/chapter_3_role_of_computer_in_today_s_world"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="normal"
+                android:background="@drawable/cst_left_green_card"
+                />
+
+
+
+
+            <TextView
+                android:layout_width="@dimen/dem_320dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cst_left_yellow_card"
+                android:layout_gravity="right"
+
+                android:onClick="Computer_System"
+                android:padding="10dp"
+                android:text="Chapter 4:  Computer System"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="normal"
+                />
+
+
+
+
+            <TextView
+                android:background="@drawable/cst_left_green_card"
+                android:layout_width="@dimen/dem_320dp"
+                android:layout_height="wrap_content"
+                android:onClick="Programming_Languages"
+                android:padding="5dp"
+                android:text="@string/chapter_5_programming_languages"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+
+
+            <TextView
+                android:layout_width="@dimen/dem_320dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/cst_left_yellow_card"
+                android:onClick="Hardware_and_Software"
+                android:padding="10dp"
+                android:text="Chapter 6:  Hardware and Software"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+
+
+
+
+            <TextView
+                android:background="@drawable/cst_left_green_card"
+                android:layout_width="@dimen/dem_320dp"
+                android:layout_height="wrap_content"
+                android:onClick="Analog_and_Digital"
+                android:padding="10dp"
+                android:text="Chapter 7:  Analog and Digital"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+
+
+            <TextView
+                android:layout_width="@dimen/dem_320dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/cst_left_yellow_card"
+                android:onClick="Operating_System"
+                android:padding="10dp"
+                android:text="Chapter 8:  Operating System"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+
+
+
+            <TextView
+                android:background="@drawable/cst_left_green_card"
+                android:layout_width="@dimen/dem_320dp"
+                android:layout_height="wrap_content"
+                android:onClick="Internet"
+                android:padding="10dp"
+                android:text="Chapter 9:  Internet"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+
+
+            <TextView
+                android:layout_width="@dimen/dem_320dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cst_left_yellow_card"
+                android:layout_gravity="right"
+                android:onClick="Types_of_Computer"
+                android:padding="10dp"
+                android:text="Chapter 10:  Types of Computer"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+
+
+
+            <TextView
+                android:background="@drawable/cst_left_green_card"
+                android:layout_width="@dimen/dem_320dp"
+                android:layout_height="wrap_content"
+                android:onClick="Congratulations"
+                android:padding="10dp"
+                android:text="Congratulations From Developer"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/banner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="SMART_BANNER"
+        app:adUnitId="@string/banner_id"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

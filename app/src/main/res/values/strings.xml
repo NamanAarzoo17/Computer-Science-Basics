@@ -1,0 +1,32 @@
+<resources>
+
+    <!--app requirement-->
+    <string name="app_name">Computer Science Basics</string>
+
+    <!-- extra -->
+    <string name="needless_string">_</string>
+
+    <!-- home -->
+    <string name="advanced_computing">Advanced Computing</string>
+    <string name="quantum_computing">Quantum Computing</string>
+    <string name="basics_of_computer_science">Basics of Computer Science</string>
+    <string name="basics_of_programming">Basics of Programming</string>
+
+
+    <!-- ch_list -->
+    <string name="chapter_1_introduction">Chapter 1: Introduction</string>
+    <string name="chapter_2_fundamental_concept">Chapter 2: Fundamental Concept</string>
+    <string name="chapter_3_role_of_computer_in_today_s_world">Chapter 3: Role of Computer in Today’s World</string>
+    <string name="chapter_5_programming_languages">Chapter 5: Programming Languages</string>
+
+    <!-- AdMob -->
+
+    <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+    <!-- My AdMob app ID: ca-app-pub-5726394755599514~4711427431 -->
+
+    <string name="APPLICATION_ID">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner_id">ca-app-pub-5726394755599514/2442704357</string>
+    <string name="onBackClick_id">ca-app-pub-5726394755599514/4136712364</string>
+
+
+</resources>

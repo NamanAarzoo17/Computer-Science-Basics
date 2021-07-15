@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.realistic.computersciencebasics">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ComputerScienceBasics">
+
+        <!-- SplashScreen -->
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Home Page -->
+        <activity
+            android:name=".MainActivity"
+            android:hardwareAccelerated="true" />
+
+        <!-- basicCS_ch -->
+        <activity
+            android:name=".BasicCS"
+            android:hardwareAccelerated="true" />
+        <activity android:name=".ch_list.Ch_types_of_computer" />
+        <activity android:name=".ch_list.Ch_FundamentalConcept" />
+        <activity android:name=".ch_list.Ch_Role_of_Computer" />
+        <activity android:name=".ch_list.Ch_Programming_Languages" />
+        <activity android:name=".ch_list.Ch_Introduction" />
+        <activity android:name=".ch_list.Ch_Internet" />
+        <activity android:name=".ch_list.Ch_Hardware_and_Software" />
+        <activity android:name=".ch_list.Ch_Congratulations" />
+        <activity android:name=".ch_list.Ch_computer_system" />
+        <activity android:name=".ch_list.Ch_analog_and_digital" />
+        <activity android:name=".ch_list.Ch_OS" /> <!-- Ad Mob -->
+        <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+        <!-- My AdMob app ID: ca-app-pub-5726394755599514~4711427431 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/APPLICATION_ID" />
+    </application>
+</manifest>
